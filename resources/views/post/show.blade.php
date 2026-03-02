@@ -24,7 +24,7 @@
                 <!-- User avatar section -->
 
                 <!-- Clap Section -->
-                <x-clap-button />
+                <x-clap-button :post="$post" />
                 <!-- Clap Section -->
 
                 <!-- Content Section -->
@@ -41,7 +41,7 @@
                     <span class="px-4 py-2 bg-gray-200 rounded-xl">{{ $post->category->name }}</span>
                 </div>
                 <!-- Clap Section endpage -->
-                <x-clap-button />
+                <x-clap-button :post="$post" />
                 <!-- Clap Section endpage -->
 
             </div>
